@@ -35,3 +35,41 @@ axios.post(api_url, TO_POST_DATA_JSON)
 .catch([에러시 실행할 콜백])
 ```
 
+
+
+### JSON 바디 형식
+
+#### attached
+
+```js
+{
+    "text": "슬랙 메시지",
+        
+        // 추가 정보
+    "attachments": [	
+        {
+            "fallback": "추가정보 요약 문자(필요)",
+            "color": "수직 바 색상 (#XXXXXX)",
+            "pretext": "추가 정보 위에 표시되는 문자",
+            "title": "추가 정보 제목",
+            "title_link": "추가 정보 링크",
+            "fields": [
+                "{
+                	// 추가 정보 오브젝트(요소)
+                	"title": "요소 제목",
+                	"value": "요소 값",
+                	"short": true or false
+                }"
+            ],
+            "image_url": "이미지 추가시 url",
+            "thumb_url": "썸네일 추가시 url",
+            "ts": 타임스탬프
+        }
+    ]
+}
+```
+
+
+
+#### message button
+
