@@ -1,0 +1,5 @@
+*/node_modules/
+*api_info.json
+
+.vscode
+*DS_Store
