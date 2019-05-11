@@ -20,7 +20,7 @@
 인증된 webhook url(이하 api_url)로 특정 형식의 JSON을 **HTTP POST**하면 봇이 슬랙에 메시지를 남긴다.
 
 ```bash
-curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' api_url
+~$ curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' api_url
 ```
 
 
