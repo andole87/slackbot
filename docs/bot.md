@@ -1,8 +1,9 @@
 ## slack bot
 
-bot은 `interaction`이 가능하다. `Incoming Webhook`은 단순 메시지 `post`만 가능했다. 물론 스케줄링을 사용, 주기적으로 메시지를 포스트하거나, 이벤트를 연결해서 동작하게 할 수 있다. 하지만 외부 서버가 필요하거나 실시간으로 처리하기 어렵다는 단점이 있다.
+bot은 `interaction`이 가능하다. `Incoming Webhook`은 단순 메시지 `post`만 가능했다. 물론 스케줄링을 사용, 주기적으로 메시지를 포스트하거나, 이벤트를 연결해서 동작하게 할 수 있다. 하지만 실시간으로 처리하기 어렵다는 단점이 있다.
 
-`bot`은 slack 내부에서 제공하는 `interaction`이 가능한 app이다.
+`bot`은 slack에서 제공하는 Scope들을 이용해서 좀더 쉽게 동작을 정의할 수 있다.   
+`bot`은 기본적으로 `Websocket`을 이용해 통신한다. 
 
 ## Configuration
 
