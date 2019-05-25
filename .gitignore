@@ -1,5 +1,7 @@
 */node_modules/
 *api_info.json
+*credentials.json
+ngrok
 
 .vscode
 *DS_Store
