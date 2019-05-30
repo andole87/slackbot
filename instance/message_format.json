@@ -1,0 +1,29 @@
+{
+    "form": [
+        {
+            "type": "divider"
+        },
+        {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "STORE_NAME"
+            },
+            "accessory": {
+                "type": "image",
+                "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/c7ed05m9lC2EmA3Aruue7A/o.jpg",
+                "alt_text": "alt text for image"
+            }
+        },
+        {
+            "type": "divider"
+        },
+        {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "PROS"
+            }
+        }
+    ]
+}
