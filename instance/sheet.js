@@ -9,8 +9,7 @@ function getSheet() {
             const item = res.data.values[index];
             message.form[1].text.text = item[1] + "\n" + item[7];
             message.form[1].accessory.image_url = item[6];
-            message.form[3].text.text = "*" + item[2] + " *\n 좋은점: " + item[3] +
-                "\n 가격대: " + item[4]
+            message.form[3].text.text = "*" + item[2] + " *\n 좋은점: " + item[3] + "\n 가격대: " + item[4]
             console.log(JSON.stringify(message.form))
             return axios.post(api.slack_url, {
                 blocks: JSON.stringify(message.form)
